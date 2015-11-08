@@ -1,0 +1,184 @@
+2015-11-04 10:57:07,193 INFO  [Log] Fights Registration page launched 
+2015-11-04 10:58:02,618 INFO  [Log] Fights Registration page launched 
+2015-11-04 11:00:44,505 INFO  [Log] Fights Registration page launched 
+2015-11-04 11:01:38,378 INFO  [Log] Fights Registration page launched 
+2015-11-04 11:02:13,593 INFO  [Log] Fights Registration page launched 
+2015-11-04 11:03:07,743 INFO  [Log] Fights Registration page launched 
+2015-11-04 11:03:26,883 INFO  [Log] Cleared default Origin text 
+2015-11-04 11:03:27,010 INFO  [Log] Entered Origin as SFO 
+2015-11-04 11:03:27,353 INFO  [Log] Entered destination as LAX 
+2015-11-04 11:03:31,042 INFO  [Log] Entered start date 
+2015-11-04 11:03:31,493 INFO  [Log] Entered return date 
+2015-11-04 11:04:20,322 INFO  [Log] Clicked Search button 
+2015-11-04 11:04:20,385 INFO  [Log] Entered search results page 
+2015-11-04 11:04:20,385 INFO  [Log] Printed the title to see if the origin and destination is correct 
+2015-11-04 11:04:20,924 INFO  [Log] Selected the first available option 
+2015-11-04 11:04:21,414 INFO  [Log] Fights Registration page launched 
+2015-11-04 11:04:33,814 INFO  [Log] Cleared default Origin text 
+2015-11-04 11:04:34,423 INFO  [Log] Entered Origin as NYC 
+2015-11-04 11:04:35,354 INFO  [Log] Entered destination as SLC 
+2015-11-04 11:04:52,653 INFO  [Log] Entered start date 
+2015-11-04 11:05:13,331 INFO  [Log] Fights Registration page launched 
+2015-11-04 11:05:17,853 INFO  [Log] Cleared default Origin text 
+2015-11-04 11:05:18,038 INFO  [Log] Entered Origin as CHI 
+2015-11-04 11:05:19,868 INFO  [Log] Entered destination as DEN 
+2015-11-04 11:05:20,854 INFO  [Log] Entered start date 
+2015-11-04 11:05:21,407 INFO  [Log] Entered return date 
+2015-11-04 11:05:21,950 INFO  [Log] Clicked Search button 
+2015-11-04 11:05:30,642 INFO  [Log] Entered search results page 
+2015-11-04 11:05:30,642 INFO  [Log] Printed the title to see if the origin and destination is correct 
+2015-11-04 11:25:36,304 INFO  [Log] Fights Registration page launched 
+2015-11-04 11:25:43,042 INFO  [Log] Cleared default Origin text 
+2015-11-04 11:25:43,348 INFO  [Log] Entered Origin as SFO 
+2015-11-04 11:25:44,510 INFO  [Log] Entered destination as LAX 
+2015-11-04 11:25:46,069 INFO  [Log] Entered start date 
+2015-11-04 11:25:46,497 INFO  [Log] Entered return date 
+2015-11-04 11:25:47,973 INFO  [Log] Clicked Search button 
+2015-11-04 11:26:31,451 INFO  [Log] Entered search results page 
+2015-11-04 11:26:31,451 INFO  [Log] Printed the title to see if the origin and destination is correct 
+2015-11-04 11:26:31,968 INFO  [Log] Selected the first available option 
+2015-11-04 11:26:32,205 INFO  [Log] Switched to the first window 
+2015-11-04 11:26:32,684 INFO  [Log] Switched to the second window 
+2015-11-04 11:26:44,658 INFO  [Log] Asserting if the page origin detail is the same 
+2015-11-04 11:26:45,009 INFO  [Log] Asserting if the page destination detail is the same 
+2015-11-04 11:26:45,246 INFO  [Log] Switched back to original window 
+2015-11-04 11:26:45,621 INFO  [Log] Fights Registration page launched 
+2015-11-04 11:26:58,035 INFO  [Log] Cleared default Origin text 
+2015-11-04 11:26:58,134 INFO  [Log] Entered Origin as NYC 
+2015-11-04 11:26:58,356 INFO  [Log] Entered destination as SLC 
+2015-11-04 11:26:58,826 INFO  [Log] Entered start date 
+2015-11-04 11:26:59,397 INFO  [Log] Entered return date 
+2015-11-04 11:26:59,936 INFO  [Log] Clicked Search button 
+2015-11-04 11:27:09,294 INFO  [Log] Entered search results page 
+2015-11-04 11:27:09,294 INFO  [Log] Printed the title to see if the origin and destination is correct 
+2015-11-04 11:27:30,349 INFO  [Log] Fights Registration page launched 
+2015-11-04 11:27:35,986 INFO  [Log] Cleared default Origin text 
+2015-11-04 11:27:36,296 INFO  [Log] Entered Origin as CHI 
+2015-11-04 11:27:36,877 INFO  [Log] Entered destination as DEN 
+2015-11-04 11:28:37,386 INFO  [Log] Entered start date 
+2015-11-04 11:28:37,971 INFO  [Log] Entered return date 
+2015-11-04 11:29:08,876 INFO  [Log] Clicked Search button 
+2015-11-04 11:29:08,925 INFO  [Log] Entered search results page 
+2015-11-04 11:29:08,925 INFO  [Log] Printed the title to see if the origin and destination is correct 
+2015-11-04 12:09:16,837 INFO  [Log] Fights Registration page launched 
+2015-11-04 12:09:23,806 INFO  [Log] Cleared default Origin text 
+2015-11-04 12:09:23,914 INFO  [Log] Entered Origin as SFO 
+2015-11-04 12:09:24,919 INFO  [Log] Entered destination as LAX 
+2015-11-04 12:09:26,640 INFO  [Log] Entered start date 
+2015-11-04 12:09:27,243 INFO  [Log] Entered return date 
+2015-11-04 12:10:00,556 INFO  [Log] Clicked Search button 
+2015-11-04 12:10:00,597 INFO  [Log] Entered search results page 
+2015-11-04 12:10:00,597 INFO  [Log] Printed the title to see if the origin and destination is correct 
+2015-11-04 12:10:01,307 INFO  [Log] Selected the first available option 
+2015-11-04 12:10:01,527 INFO  [Log] Switched to the first window 
+2015-11-04 12:10:02,159 INFO  [Log] Switched to the second window 
+2015-11-04 12:10:04,368 INFO  [Log] Asserting if the page origin detail is the same 
+2015-11-04 12:10:04,368 INFO  [Log] Asserting if the page destination detail is the same 
+2015-11-04 12:10:16,321 INFO  [Log] Switched back to original window 
+2015-11-04 12:10:16,683 INFO  [Log] Fights Registration page launched 
+2015-11-04 12:10:37,672 INFO  [Log] Cleared default Origin text 
+2015-11-04 12:10:37,775 INFO  [Log] Entered Origin as NYC 
+2015-11-04 12:10:38,710 INFO  [Log] Entered destination as SLC 
+2015-11-04 12:10:39,417 INFO  [Log] Entered start date 
+2015-11-04 12:10:40,009 INFO  [Log] Entered return date 
+2015-11-04 12:10:40,520 INFO  [Log] Clicked Search button 
+2015-11-04 12:10:49,558 INFO  [Log] Entered search results page 
+2015-11-04 12:10:49,558 INFO  [Log] Printed the title to see if the origin and destination is correct 
+2015-11-04 12:11:15,333 INFO  [Log] Fights Registration page launched 
+2015-11-04 12:11:20,319 INFO  [Log] Cleared default Origin text 
+2015-11-04 12:11:22,826 INFO  [Log] Entered Origin as SFO 
+2015-11-04 12:11:23,085 INFO  [Log] Entered destination as DEN 
+2015-11-04 12:11:40,339 INFO  [Log] Entered start date 
+2015-11-04 12:16:51,179 INFO  [Log] Fights Registration page launched 
+2015-11-04 12:16:58,065 INFO  [Log] Cleared default Origin text 
+2015-11-04 12:16:58,268 INFO  [Log] Entered Origin as SFO 
+2015-11-04 12:16:59,381 INFO  [Log] Entered destination as LAX 
+2015-11-04 12:18:03,341 INFO  [Log] Fights Registration page launched 
+2015-11-04 12:18:08,166 INFO  [Log] Cleared default Origin text 
+2015-11-04 12:18:10,386 INFO  [Log] Entered Origin as SJC 
+2015-11-04 12:18:11,633 INFO  [Log] Entered destination as JFK 
+2015-11-04 12:18:12,340 INFO  [Log] Entered start date 
+2015-11-04 12:18:12,748 INFO  [Log] Entered return date 
+2015-11-04 12:18:44,275 INFO  [Log] Clicked Search button 
+2015-11-04 12:18:44,334 INFO  [Log] Entered search results page 
+2015-11-04 12:18:44,335 INFO  [Log] Printed the title to see if the origin and destination is correct 
+2015-11-04 12:19:04,990 INFO  [Log] Fights Registration page launched 
+2015-11-04 12:22:56,617 INFO  [Log] Fights Registration page launched 
+2015-11-04 12:23:03,614 INFO  [Log] Cleared default Origin text 
+2015-11-04 12:23:04,402 INFO  [Log] Entered Origin as SFO 
+2015-11-04 12:23:04,709 INFO  [Log] Entered destination as LAX 
+2015-11-04 12:23:06,354 INFO  [Log] Entered start date 
+2015-11-04 12:23:06,989 INFO  [Log] Entered return date 
+2015-11-04 12:23:22,947 INFO  [Log] Clicked Search button 
+2015-11-04 12:23:23,351 INFO  [Log] Entered search results page 
+2015-11-04 12:23:23,352 INFO  [Log] Printed the title to see if the origin and destination is correct 
+2015-11-04 12:23:24,854 INFO  [Log] Selected the first available option 
+2015-11-04 12:23:25,747 INFO  [Log] Switched to the first window 
+2015-11-04 12:23:40,383 INFO  [Log] Switched to the second window 
+2015-11-04 12:23:40,580 INFO  [Log] Asserting if the page origin detail is the same 
+2015-11-04 12:23:40,580 INFO  [Log] Asserting if the page destination detail is the same 
+2015-11-04 12:23:41,173 INFO  [Log] Switched back to original window 
+2015-11-04 12:23:41,704 INFO  [Log] Fights Registration page launched 
+2015-11-04 12:23:49,878 INFO  [Log] Cleared default Origin text 
+2015-11-04 12:23:49,984 INFO  [Log] Entered Origin as SJC 
+2015-11-04 12:23:50,248 INFO  [Log] Entered destination as JFK 
+2015-11-04 12:23:53,432 INFO  [Log] Entered start date 
+2015-11-04 12:23:54,081 INFO  [Log] Entered return date 
+2015-11-04 12:23:54,788 INFO  [Log] Clicked Search button 
+2015-11-04 12:24:03,992 INFO  [Log] Entered search results page 
+2015-11-04 12:24:03,992 INFO  [Log] Printed the title to see if the origin and destination is correct 
+2015-11-04 12:24:46,606 INFO  [Log] Fights Registration page launched 
+2015-11-04 12:24:52,592 INFO  [Log] Cleared default Origin text 
+2015-11-04 12:24:54,956 INFO  [Log] Entered Origin as SFO 
+2015-11-04 12:24:55,295 INFO  [Log] Entered destination as DEN 
+2015-11-04 12:24:55,804 INFO  [Log] Entered start date 
+2015-11-04 12:41:41,058 INFO  [Log] Fights Registration page launched 
+2015-11-04 12:42:43,462 INFO  [Log] Cleared default Origin text 
+2015-11-04 12:42:43,564 INFO  [Log] Entered Origin as SFO 
+2015-11-04 12:42:43,760 INFO  [Log] Entered destination as LAX 
+2015-11-04 12:42:45,605 INFO  [Log] Entered start date 
+2015-11-04 12:42:46,094 INFO  [Log] Entered return date 
+2015-11-04 12:43:59,474 INFO  [Log] Clicked Search button 
+2015-11-04 12:43:59,539 INFO  [Log] Entered search results page 
+2015-11-04 12:43:59,539 INFO  [Log] Printed the title to see if the origin and destination is correct 
+2015-11-04 12:44:30,243 INFO  [Log] Fights Registration page launched 
+2015-11-04 12:45:05,756 INFO  [Log] Fights Registration page launched 
+2015-11-04 12:45:10,417 INFO  [Log] Cleared default Origin text 
+2015-11-04 12:45:12,222 INFO  [Log] Entered Origin as SFO 
+2015-11-04 12:45:12,527 INFO  [Log] Entered destination as DEN 
+2015-11-04 12:45:13,596 INFO  [Log] Entered start date 
+2015-11-06 14:31:34,434 INFO  [Log] Fights Registration page launched 
+2015-11-06 14:31:41,479 INFO  [Log] Cleared default Origin text 
+2015-11-06 14:31:42,095 INFO  [Log] Entered Origin as SFO 
+2015-11-06 14:31:42,421 INFO  [Log] Entered destination as LAX 
+2015-11-06 14:31:44,473 INFO  [Log] Entered start date 
+2015-11-06 14:31:45,421 INFO  [Log] Entered return date 
+2015-11-06 14:31:58,269 INFO  [Log] Clicked Search button 
+2015-11-06 14:31:58,391 INFO  [Log] Entered search results page 
+2015-11-06 14:31:58,391 INFO  [Log] Printed the title to see if the origin and destination is correct 
+2015-11-06 14:31:59,132 INFO  [Log] Selected the first available option 
+2015-11-06 14:31:59,442 INFO  [Log] Switched to the first window 
+2015-11-06 14:32:01,113 INFO  [Log] Switched to the second window 
+2015-11-06 14:32:09,113 INFO  [Log] Asserting if the page origin detail is the same 
+2015-11-06 14:32:09,113 INFO  [Log] Asserting if the page destination detail is the same 
+2015-11-06 14:32:09,326 INFO  [Log] Switched back to original window 
+2015-11-06 14:32:09,692 INFO  [Log] Fights Registration page launched 
+2015-11-06 14:32:14,976 INFO  [Log] Cleared default Origin text 
+2015-11-06 14:32:17,460 INFO  [Log] Entered Origin as SJC 
+2015-11-06 14:32:17,771 INFO  [Log] Entered destination as JFK 
+2015-11-06 14:32:18,433 INFO  [Log] Entered start date 
+2015-11-06 14:32:19,110 INFO  [Log] Entered return date 
+2015-11-06 14:32:19,711 INFO  [Log] Clicked Search button 
+2015-11-06 14:32:29,948 INFO  [Log] Entered search results page 
+2015-11-06 14:32:29,948 INFO  [Log] Printed the title to see if the origin and destination is correct 
+2015-11-06 14:32:37,853 INFO  [Log] Selected the first available option 
+2015-11-06 14:32:38,156 INFO  [Log] Switched to the first window 
+2015-11-06 14:32:38,599 INFO  [Log] Switched to the second window 
+2015-11-06 14:32:40,681 INFO  [Log] Asserting if the page origin detail is the same 
+2015-11-06 14:32:40,682 INFO  [Log] Asserting if the page destination detail is the same 
+2015-11-06 14:32:41,495 INFO  [Log] Switched back to original window 
+2015-11-06 14:32:41,808 INFO  [Log] Fights Registration page launched 
+2015-11-06 14:32:47,460 INFO  [Log] Cleared default Origin text 
+2015-11-06 14:32:49,745 INFO  [Log] Entered Origin as SFO 
+2015-11-06 14:32:50,180 INFO  [Log] Entered destination as DEN 
+2015-11-06 14:32:50,779 INFO  [Log] Entered start date 

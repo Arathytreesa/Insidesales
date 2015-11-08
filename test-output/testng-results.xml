@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="184618" started-at="2015-11-04T20:08:56Z" finished-at="2015-11-04T20:12:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="184618" started-at="2015-11-04T20:08:56Z" finished-at="2015-11-04T20:12:01Z">
+      <class name="com.kayak.POMSeleniumTest.DriverTest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.kayak.POMSeleniumTest.DriverTest@54a097cc]" name="Setup" is-config="true" duration-ms="20044" started-at="2015-11-04T12:08:56Z" finished-at="2015-11-04T12:09:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="dynamicScripts(java.lang.String, java.lang.String)[pri:0, instance:com.kayak.POMSeleniumTest.DriverTest@54a097cc]" name="dynamicScripts" duration-ms="59872" started-at="2015-11-04T12:09:16Z" data-provider="DynamicInputs" finished-at="2015-11-04T12:10:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SFO]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LAX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynamicScripts -->
+        <test-method status="FAIL" signature="dynamicScripts(java.lang.String, java.lang.String)[pri:0, instance:com.kayak.POMSeleniumTest.DriverTest@54a097cc]" name="dynamicScripts" duration-ms="58418" started-at="2015-11-04T12:10:16Z" data-provider="DynamicInputs" finished-at="2015-11-04T12:11:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NYC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SLC]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"//div[@id='content_div']/div[1]/div/div/div[2]/div[3]/span[1]/a/span"}
+Command duration or timeout: 20.28 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.47.1', revision: '411b314', time: '2015-07-30 02:56:46'
+System info: host: 'Arathy_Jose', ip: '10.0.0.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d3861851-41ea-4878-a249-78335000dc2b
+*** Element info: {Using=xpath, value=//div[@id='content_div']/div[1]/div/div/div[2]/div[3]/span[1]/a/span}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@id='content_div']/div[1]/div/div/div[2]/div[3]/span[1]/a/span"}
+Command duration or timeout: 20.28 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.47.1', revision: '411b314', time: '2015-07-30 02:56:46'
+System info: host: 'Arathy_Jose', ip: '10.0.0.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d3861851-41ea-4878-a249-78335000dc2b
+*** Element info: {Using=xpath, value=//div[@id='content_div']/div[1]/div/div/div[2]/div[3]/span[1]/a/span}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at com.kayak.POMSelenium.SearchResults.getSelect(SearchResults.java:11)
+	at com.kayak.POMSeleniumTest.DriverTest.dynamicScripts(DriverTest.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@id='content_div']/div[1]/div/div/div[2]/div[3]/span[1]/a/span"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.47.1', revision: '411b314', time: '2015-07-30 02:56:46'
+System info: host: 'Arathy_Jose', ip: '10.0.0.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/Arathy/AppData/Local/Temp/anonymous7980789121886295649webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10667)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/Arathy/AppData/Local/Temp/anonymous7980789121886295649webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynamicScripts -->
+        <test-method status="FAIL" signature="dynamicScripts(java.lang.String, java.lang.String)[pri:0, instance:com.kayak.POMSeleniumTest.DriverTest@54a097cc]" name="dynamicScripts" duration-ms="46063" started-at="2015-11-04T12:11:14Z" data-provider="DynamicInputs" finished-at="2015-11-04T12:12:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SFO]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DEN]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotVisibleException">
+            <message>
+              <![CDATA[Element is not currently visible and so may not be interacted with
+Command duration or timeout: 20.12 seconds
+Build info: version: '2.47.1', revision: '411b314', time: '2015-07-30 02:56:46'
+System info: host: 'Arathy_Jose', ip: '10.0.0.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d3861851-41ea-4878-a249-78335000dc2b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 20.12 seconds
+Build info: version: '2.47.1', revision: '411b314', time: '2015-07-30 02:56:46'
+System info: host: 'Arathy_Jose', ip: '10.0.0.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d3861851-41ea-4878-a249-78335000dc2b
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:273)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.kayak.POMSeleniumTest.DriverTest.dynamicScripts(DriverTest.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.47.1', revision: '411b314', time: '2015-07-30 02:56:46'
+System info: host: 'Arathy_Jose', ip: '10.0.0.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/Arathy/AppData/Local/Temp/anonymous7980789121886295649webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9982)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/Arathy/AppData/Local/Temp/anonymous7980789121886295649webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12626)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/Arathy/AppData/Local/Temp/anonymous7980789121886295649webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12643)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/Arathy/AppData/Local/Temp/anonymous7980789121886295649webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynamicScripts -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.kayak.POMSeleniumTest.DriverTest@54a097cc]" name="teardown" is-config="true" duration-ms="176" started-at="2015-11-04T12:12:00Z" finished-at="2015-11-04T12:12:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.kayak.POMSeleniumTest.DriverTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
